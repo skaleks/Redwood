@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff59cd309fa14e54963f83b5c5157e67, type: 3}
+  m_Name: GameplayDataBase
+  m_EditorClassIdentifier: 
+  _playerData: {fileID: 11400000, guid: 02e6ac5743b889e42b6028bffba056ce, type: 2}
+  _zombieData:
+  - {fileID: 11400000, guid: 0ee3573a80adfca47af197f0691e391d, type: 2}
+  - {fileID: 11400000, guid: dcf7bcb497763034189433d2923e72c3, type: 2}
+  - {fileID: 11400000, guid: c997a0f7cb18dd84e9613e5fde596869, type: 2}
+  - {fileID: 11400000, guid: 7f5e13cf8f5f9d84e8e9dd1307e621eb, type: 2}
+  - {fileID: 11400000, guid: b3fd0e19d5c0c02478c077c8483ea66a, type: 2}
+  _enemySpawnDelay: 1
